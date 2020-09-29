@@ -21,4 +21,4 @@ def lowest_terms(x):
 		i = d_copy
 		d_copy = hcf % d_copy
 		hcf = i
-	return "{}/{}".format(int(n), int(d))
+	return '{}{}/{}'.format(indication, int(n / hcf), int(d / hcf))
