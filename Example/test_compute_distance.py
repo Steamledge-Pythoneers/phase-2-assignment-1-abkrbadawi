@@ -1,6 +1,6 @@
 from compute_distance import distance_to_destination
 
-def test_distance_to_destination_4():
+def test_distance_to_destination_4_0_positive():
     assert(distance_to_destination(22, 26) == 14)
 
 def test_distance_to_destination_0():
