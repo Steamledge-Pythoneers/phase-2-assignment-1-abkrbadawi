@@ -2,7 +2,7 @@
 
 def lowest_terms(x):
 	"""this is a function that accept a string in form of a fraction calculate and returns the lowest
-    possible term of the string in form of a fraction
+    possible term of the string in form of a fraction.
 
     Input parameter:
         x (str): a fraction in the form 'numerator/denomenator'
