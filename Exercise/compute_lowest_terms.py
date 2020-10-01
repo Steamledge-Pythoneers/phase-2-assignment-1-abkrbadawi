@@ -9,7 +9,7 @@ def lowest_terms(x):
 		indication = ""
 	elif n<0 or d<0:
 		indication = "-"
-	if n == 0:
+	if n == 0 and d !=0:
 		return "0"
 	if d == 0:
 		return "Undefined"
